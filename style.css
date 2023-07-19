@@ -253,4 +253,36 @@ height:40%;
 /* Play Instantly section end */
 
 
+/*gaming-features-btn   */
 
+.gaming-features-btn{
+ display: grid;
+ grid-template-columns: repeat(5,1fr);
+ gap: 30px;
+margin: 120px 30%;
+
+}
+
+.gaming-features-btn button{
+border-radius: 50px;
+font-weight: 600px;
+cursor: pointer;
+background-color: #ffffff;
+
+}
+
+
+.gaming-features-btn button:hover{
+    
+    border: 1px solid ;
+    color: red;
+}
+    
+.gaming-features-btn img{
+    width: 20%;
+
+}
+
+
+
+/*gaming-features-btn end*/
