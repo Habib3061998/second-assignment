@@ -14,7 +14,7 @@ font-family: 'Work Sans', sans-serif;
 /* nav section start  */
 
 header{
-    height: 100vh;
+    height:100%;
     
 }
 
@@ -72,26 +72,23 @@ ul, li, .nav-btn{
 /* banner section start  */
 
 
-.banner-contianer{
+.banner{
 display: flex;
 padding: 20px 140px;
+justify-content: space-between;
+ background-image:url("./Group14.png");
+ background-repeat: no-repeat;
 
 
 }
-.banner{
-    width: 901px;
-    height:700px;
-    background-image: url(./Group14.png); 
-
-}
-
-.banner .banner-content{
-   margin-bottom: 100px;
-}
-
 
 .banner-content{
- width: 50vh;
+justify-content: center;
+margin-top: 120px;
+position: relative;
+bottom: 80px;
+
+
 
 }
 
@@ -114,36 +111,30 @@ padding: 20px 140px;
 
  }
 
-.banner-content i{
-     padding-bottom: 10px;
-}
+ .primary-btn{
+    margin-top: 50px;
+    
+ }
 
 .banner-btn-1{
-
+    background-color: #FF42A5;
+    color: white;
     font-size: 1rem;
-    padding: 10px 8px;
+    padding: 8px;
     border-radius: 50px;
     cursor: pointer;
-    background-color: #FF42A5;
-    align-items: flex-start;
-    color: white;
 
 }
-
 .banner-btn-2{
-
-    font-size: 1rem;
-    padding: 10px 8px;
-    border-radius: 50px;
-    cursor: pointer;
     background-color: #4d94ff;
     color: white;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 
-.bannner-img{
-    margin-left: 10%;
-}
 
 /* banner section end  */
 
@@ -168,11 +159,7 @@ margin-bottom: 30px;
     
  }
 
- .online-games-title{
-    font-size: 1rem;
-    font-weight: 400;
-    
- }
+
 
  .online-games-title p{
     font-weight:4rem;
@@ -186,12 +173,15 @@ margin-bottom: 30px;
     justify-content:center;
     gap: 20px;
     border-radius: 6px;
+   
  }
 
-  .card-3:hover{
+
+.card-3:hover{
     cursor: pointer;
-    color: #1000f3;
-   
+    color: #ffb7e3;
+    
+    
 
  } 
 
@@ -293,7 +283,7 @@ background-color: #ffffff;
 
 
 .footer-container{
-    height: 100vh;
+    height: 50vh;
     background-color: #0B0223;
     
 
