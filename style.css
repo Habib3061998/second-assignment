@@ -198,8 +198,59 @@ margin-bottom: 30px;
  /* Online Games section end */
 
 
+/*  Play Instantly section start  */
 
 
-
+.Play-Instantly-contianer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin: 50px auto;
+    
+}
  
+.Play-Instantly-img img{
+    border-radius: 8px;
+}
+
+.Play-Instantly-img{
+    position: relative;
+
+} 
+
+.Play-Instantly-item{
+ text-align: center;
+}
+
+.Play-Instantly-item h1{
+    font-size: 3rem;
+}
+
+
+.Play-Instantly-item h1 span{
+    color: #FF42A5;
+}
+
+.Play-Instantly-item p{
+    font-weight: 700px;
+    color: rgb(51, 37, 37);
+    
+}
+
+
+
+.Play-Instantly-img-2 img{ 
+ position: absolute;
+ left: -130px;
+ top:70%;
+width: 40%;
+height:40%;
  
+}
+
+
+/* Play Instantly section end */
+
+
+
