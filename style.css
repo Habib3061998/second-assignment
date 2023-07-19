@@ -286,3 +286,86 @@ background-color: #ffffff;
 
 
 /*gaming-features-btn end*/
+
+
+
+/* footer section  */
+
+
+.footer-container{
+    height: 100vh;
+    background-color: #0B0223;
+    
+
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    gap: 10px;
+
+
+}
+.footer-logo span{
+
+    color: #FF42A5;
+
+}
+
+
+.footer-list li a{
+    color: rgb(255, 255, 255);
+   
+}
+
+.footer-list{
+    text-align: center;
+    margin-top:2.5rem;
+    
+}
+.footer-list ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer-icon ul{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top:2.5rem;
+}
+
+
+.footer-li-item ul{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    margin-top:3rem;
+    
+}
+
+.footer-li-item ul li a{
+color: #ffffff;
+
+}
+
+.footer h3{
+    color: #f8f8f8;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    margin-top:3rem;
+
+}
+
+
+/* footer end  */
