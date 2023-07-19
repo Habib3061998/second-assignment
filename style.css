@@ -147,10 +147,59 @@ padding: 20px 140px;
 
 /* banner section end  */
 
-
-                                    /* Online Games Funny Videos */
-
+ /* Online Games Funny Videos */
 
 
+ .online-games-title{
 
-                                    
+text-align: center;
+margin-bottom: 30px;
+
+ }
+
+ .online-games-title h1{
+    font-size: 2.5rem;
+    font-weight: 3rem;
+ }
+ .online-games-title span{
+    background-image: linear-gradient( to bottom,  #55f025, rgb(241, 238, 23));
+    color: transparent;
+    -webkit-background-clip:text;
+    
+ }
+
+ .online-games-title{
+    font-size: 1rem;
+    font-weight: 400;
+    
+ }
+
+ .online-games-title p{
+    font-weight:4rem;
+    padding: 10px 0;
+ }
+
+
+
+ .card-container{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    border-radius: 6px;
+ }
+
+  .card-3:hover{
+    cursor: pointer;
+    color: #1000f3;
+   
+
+ } 
+
+ /* Online Games section end */
+
+
+
+
+
+ 
+ 
